@@ -60,13 +60,17 @@ The skill outputs an HTML file. Open it in your browser, Cmd+A, Cmd+C, paste int
 
 | Theme | Style | Best For |
 |-------|-------|---------|
-| `default` | Professional blue, vertical bar headings | General articles |
+| `minimal` | Swiss typography, maximum whitespace (**default**) | General articles, short-form |
+| `default` | Professional blue, vertical bar headings | Formal reports, tech articles |
 | `elegant` | Warm serif, dark badge headings | Essays, business writing |
 | `tech` | Cool teal, dark code blocks (One Dark) | Technical tutorials |
-| `minimal` | Swiss typography, maximum whitespace | Short-form, thought pieces |
 | `vibrant` | Green energy, black label headings | Brand content, marketing |
+| `dark` | Dark background, eye-friendly, immersive | Tech communities, night reading |
+| `notion` | Notion-style, clean and functional | Knowledge bases, internal docs |
+| `newspaper` | Classic print, serif, authoritative | Long-form journalism, analysis |
+| `gradient` | Modern gradients, visual impact | Product launches, keynote style |
 
-Preview all 5 themes side by side: open `themes/preview.html` in your browser.
+Preview themes side by side: open `themes/preview.html` in your browser.
 
 ### 14 WeChat Compatibility Rules
 
@@ -197,13 +201,17 @@ MIT
 
 | 主题 | 风格 | 适用场景 |
 |------|------|----------|
-| `default` | 专业蓝，竖条标题装饰 | 通用文章 |
+| `minimal` | 瑞士排版，极致留白（**默认**） | 通用文章、短文、随笔 |
+| `default` | 专业蓝，竖条标题装饰 | 正式报告、技术文章 |
 | `elegant` | 宋体衬线，深色徽章标题 | 人文/商业/叙事 |
 | `tech` | 冷青色调，深色代码块 (One Dark) | 技术教程 |
-| `minimal` | 瑞士排版，极致留白 | 短文/随笔/思考 |
 | `vibrant` | 活力绿，黑底标签标题 | 品牌文/营销 |
+| `dark` | 深色背景，护眼沉浸 | 技术社区、夜间阅读 |
+| `notion` | Notion 风格，干净利落 | 知识库、内部文档 |
+| `newspaper` | 报纸印刷，衬线经典 | 深度报道、长文评论 |
+| `gradient` | 现代渐变，视觉冲击 | 产品发布、发布会风格 |
 
-打开 `themes/preview.html` 可以在浏览器里对比 5 个主题的视觉效果。
+打开 `themes/preview.html` 可以在浏览器里对比主题视觉效果。
 
 ### 14 条微信兼容规则
 

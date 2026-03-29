@@ -50,7 +50,7 @@ triggers:
 /typeset <文件路径或内容> [--platform wechat|zhihu|juejin|medium|linkedin|x|blog] [--theme default|elegant|tech|minimal|vibrant] [--humanize] [--code-theme github|one-dark|kimbie]
 ```
 
-**默认值**: platform=wechat, theme=default, code-theme=github
+**默认值**: platform=wechat, theme=minimal, code-theme=github
 
 ---
 
@@ -141,11 +141,15 @@ markitdown <input_file> -o <output.md>
 
 | 主题 | 风格 | 适用场景 |
 |---|---|---|
-| `default` | 专业、均衡、蓝色调 | 通用文章 |
+| `minimal` | 极简、大留白、注重节奏（**默认**） | 通用文章、短文、随笔 |
+| `default` | 专业、均衡、蓝色调 | 正式报告、技术文章 |
 | `elegant` | 文艺、精致、暖色调 | 人文/商业/叙事类 |
-| `tech` | 现代、冷色调、代码友好 | 技术文章/教程 |
-| `minimal` | 极简、大留白 | 短文/思考/随笔 |
+| `tech` | 现代、冷色调、代码友好 | 技术教程、开发文档 |
 | `vibrant` | 活力、绿色调、视觉丰富 | 公众号品牌文/营销 |
+| `dark` | 深色背景、护眼、沉浸阅读 | 技术社区、夜间阅读 |
+| `notion` | Notion 风格、干净利落 | 知识库、内部文档 |
+| `newspaper` | 报纸印刷风、衬线经典 | 深度报道、长文评论 |
+| `gradient` | 现代渐变色、视觉冲击 | 产品发布、发布会风格 |
 
 主题文件路径: `{{SKILL_DIR}}/themes/<name>.md`
 
